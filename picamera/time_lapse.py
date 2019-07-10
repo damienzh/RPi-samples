@@ -7,12 +7,11 @@ from time import sleep
 
 class TimeLapse:
 	def __init__(self, duration, fps, interval):
-		'''
-		params
-		duration: video duration in seconds
-		fps: video fps
-		internal: time between frames in seconds
-		'''
+		"""
+		:param duration: video duration in seconds
+		:param fps: video fps
+		:param internal: time between frames in seconds
+		"""
 		self.duration = duration 
 		self.fps = fps
 		self.frame_num = self.duration * self.fps
