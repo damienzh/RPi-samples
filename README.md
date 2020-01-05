@@ -1,16 +1,17 @@
 # Sensor and Actuator sample codes on Raspberry Pi 4
 
-## rpLidar
-rplidar demo scan viewer for RPLIDAR A1M8
+## rplidar
+rplidar demo scan viewer for RPLIDAR A1M8 \\
+sample implemented by [ryan-brazeal-ufl](https://github.com/ryan-brazeal-ufl/RPyLIDAR)
 ### Usage
 ```
-cd ~/Samples/rplidar/RPyLIDAR
+cd rplidar
 workon rplidar
 python RPyLIDAR.py
 ```
 
 ## respeaker_mic_array
-Demo codes of using ReSpeaker USB Mic array
+samples for using ReSpeaker USB Mic array
 ### Setup
 1. Install dependencies
 ```
