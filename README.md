@@ -7,3 +7,5 @@ rplidar demo scan viewer for RPLIDAR A1M8,
 speech recognition using [ReSpeaker USB Mic Array](http://wiki.seeedstudio.com/cn/ReSpeaker-USB-Mic-Array/)
 - usb camera
 face recognition using [Logitech C920](https://www.logitech.com/en-ph/product/hd-pro-webcam-c920)
+- capacity fingerprint reader
+python sample codes of using capacity fingerprint reader module
