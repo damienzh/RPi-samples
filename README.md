@@ -13,7 +13,7 @@ python sample codes of using capacity fingerprint reader module
 ## Environment setup
 - install python virutalenv
 ```bash
-sudo pip3 install virtualenv virtualenvwrapper==4.8.4
+sudo pip3 install virtualenv virtualenvwrapper
 ```
 - setup system variables
 ```bash
@@ -21,4 +21,5 @@ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
 echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
 echo "export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv" >> ~/.bashrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+echo "export VIRTUALENVWRAPPER_ENV_BIN_DIR=bin" >> ~/.bashrc
 ```
