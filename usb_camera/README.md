@@ -27,6 +27,7 @@ pip install face_recognition
 ```
 
 ## Usage
+run face recognition demo
 ```
 python face_recog_usb.py
 ```
