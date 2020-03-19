@@ -107,8 +107,11 @@ class FaceRecog:
         """
         img = cv2.resize(face_image, (150, 150))
         enc = fr.face_encodings(img)
-
-        return enc[0]
+        if len(enc) > 0:
+            return enc[0]
+        else:
+            print('cannot generate encoding for this image）
+            return None
 
     def save_face_img(self, image):
         """
@@ -142,10 +145,11 @@ class FaceRecog:
                 if face_image is not None:
                     cv2.imshow('face', face_image)
                     face_enc = self.generate_face_encoding(face_image)
-                    face_metadata = self.look_up_known_faces(face_enc)
-                    if not face_metadata:
-                        self.register_new_face(face_enc, face_image)
-                        print("I don't know you, register your face now")
+                    if not face_enc:
+                        face_metadata = self.look_up_known_faces(face_enc)
+                        if not face_metadata:
+                            self.register_new_face(face_enc, face_image)
+                            print("I don't know you, register your face now")
             elif k == ord('s'):
                 self.save_face_img(frame)
 
