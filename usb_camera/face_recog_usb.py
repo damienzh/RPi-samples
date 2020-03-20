@@ -145,7 +145,7 @@ class FaceRecog:
                 if face_image is not None:
                     cv2.imshow('face', face_image)
                     face_enc = self.generate_face_encoding(face_image)
-                    if not face_enc:
+                    if face_enc is not None:
                         face_metadata = self.look_up_known_faces(face_enc)
                         if not face_metadata:
                             self.register_new_face(face_enc, face_image)
