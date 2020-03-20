@@ -110,7 +110,7 @@ class FaceRecog:
         if len(enc) > 0:
             return enc[0]
         else:
-            print('cannot generate encoding for this image）
+            print('cannot generate encoding for this image'）
             return None
 
     def save_face_img(self, image):
