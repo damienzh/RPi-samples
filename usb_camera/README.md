@@ -27,6 +27,9 @@ pip install face_recognition
 ```
 
 ## Usage
+```
+workon cv
+```
 1. Display video stream captured by camera using OpenCV
 ```
 python live_camera.py
