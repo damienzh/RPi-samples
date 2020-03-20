@@ -1,5 +1,5 @@
 # usb camera
-sample code 
+demos of using usb camera with OpenCV
 
 ## Setup
 1. Install system dependencies
@@ -15,19 +15,23 @@ sudo apt-get install libatlas-base-dev gfortran
 sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
 sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
 ```
-2. Install opencv
+2. Install [opencv](https://opencv.org)
 ```
 mkvirtualenv cv -p python3
 pip install opencv-contrib-python==4.1.0.25
 ```
-3. Install face recognition library
+3. Install [face recognition library](https://github.com/ageitgey/face_recognition)
 ```
 pip install dlib
 pip install face_recognition
 ```
 
 ## Usage
-run face recognition demo
+1. Display video stream captured by camera using OpenCV
+```
+python live_camera.py
+```
+2. Run face recognition demo
 ```
 python face_recog_usb.py
 ```
