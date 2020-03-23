@@ -21,6 +21,10 @@ git clone https://github.com/respeaker/usb_4_mic_array.git
 git clone https://github.com/respeaker/pixel_ring.git
 ```
 ## Usage
+activate virtual environment for using Mic Array
+```
+workon mic
+```
 1. Display DOA
 ```
 python doa.py
