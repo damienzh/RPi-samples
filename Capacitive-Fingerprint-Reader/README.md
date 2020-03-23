@@ -12,12 +12,15 @@ pip install pyserial smbus spidev rpi-gpio numpy
 ```
 
 ## Usage
+activate virtual environment for using Fingerprint Reader
+```
+workon finger
+```
 1. setup device permission
 ```
 sudo chmod 666 /dev/ttyS0
 ```
 2. Run terminal demo
 ```
-workon finger
 python main.py
 ```
