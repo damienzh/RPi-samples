@@ -8,7 +8,7 @@ speech recognition using [ReSpeaker USB Mic Array](http://wiki.seeedstudio.com/c
 - usb camera
 face recognition using [Logitech C920](https://www.logitech.com/en-ph/product/hd-pro-webcam-c920)
 - capacity fingerprint reader
-python sample codes of using capacity fingerprint reader module
+python sample codes of [using capacity fingerprint reader module](http://www.waveshare.net/wiki/Capacitive_Fingerprint_Reader)
 
 ## Environment setup
 - install python virutalenv
