@@ -27,6 +27,7 @@ pip install face_recognition
 ```
 
 ## Usage
+activate virtual environment for using USB camera
 ```
 workon cv
 ```
