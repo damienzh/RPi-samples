@@ -8,8 +8,12 @@ mkvirtualenv rplidar -p python3
 pip install pygame pyserial
 ```
 ## Usage
+activate virtual environment for using RPLidar
+```
+workon rplidar
+```
 1. Display lidar scan
 ```
 cd rplidar
-workon rplidar
 python RPyLIDAR.py
+```
