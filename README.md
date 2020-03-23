@@ -2,7 +2,7 @@
 
 ## Sensors
 - rplidar
-rplidar demo scan viewer for RPLIDAR A1M8, 
+rplidar demo scan viewer for [RPLIDAR A1M8](http://www.slamtec.com/cn/Lidar/A1)
 - respeaker_mic_array
 speech recognition using [ReSpeaker USB Mic Array](http://wiki.seeedstudio.com/cn/ReSpeaker-USB-Mic-Array/)
 - usb camera
